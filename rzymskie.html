@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>  
+  <title>Rzymskie Konwerter</title>
+  <script type="text/javascript">
+   var v1=1000;
+   var v2=900;
+   var v3=500;
+   var v4=400;
+   var v5=100;
+   var v6=90;
+   var v7=50;
+   var v8=40;
+   var v9=10;
+   var v10=9;
+   var v11=5;
+   var v12=4;
+   var v13=1;
+   
+   var arab=parseInt(prompt("Podaj liczbę:"));
+if (arab<=0||arab>3999)
+alert("Zapis nie jest możliwy.");
+document.write("Twoja liczba zapisana po rzymsku to:");
+do
+{
+    (arab -= v1)
+    document.write("M");
+}
+while (arab >= v1);
+do {
+    (arab -= v2)
+    document.write("CM");
+}
+while (arab >= v2);
+do {
+    (arab -= v3)
+    document.write("D");
+}
+while (arab >= v3);
+do {
+    (arab -= v4)
+    document.write("CD");
+}
+while (arab >= v4);
+do {
+    (arab -= v5)
+    document.write("C");
+}
+while (arab >= v5);
+do {
+    (arab -= v6)
+    document.write("XC");
+}
+while (arab >= v6);
+do {
+    (arab -= v7)
+    document.write("L");
+}
+while (arab >= v7);
+do {
+    (arab -= v8)
+    document.write("XL");
+}
+while (arab >= v8);
+do {
+    (arab -= v9)
+    document.write("X");
+}
+while (arab >= v9);
+do {
+    (arab -= v10)
+    document.write("IX");
+}
+while (arab >= v10);
+do {
+    (arab -= v11)
+    document.write("V");
+}
+while (arab >= v11);
+do {
+    (arab -= v12)
+    document.write("IV");
+}
+while (arab >= v12)
+do {
+    (arab -= v13)
+    document.write("I");
+}
+while (arab >= v13);
+ </script>
+</head>
+<body>
+ 
+</body>
+</html>
